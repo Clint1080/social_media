@@ -1,13 +1,17 @@
 [
     {
-        "id": 1,
+        "user_id": 1,
         "firstName": "Clint",
         "lastName": "Edwards",
-        "email": "cedwards1080@gmail.com"
+        "email": "cedwards1080@gmail.com",
+        "userId": 2,
+        "postId": 1,
+        "posts": []
+        
     },
 
     {
-        "id": 2,
+        "user_id": 2,
         "firstName": "Jonah",
         "lastName": "Vimahi",
         "email": "jonah.vimahi@gmail.com"
@@ -18,70 +22,11 @@
         "firstName": "Scott",
         "lastName": "Sutherland",
         "email": "scott.sutherland@gmail.com"
+    },
+
+    {
+        "post_id": 1,
+        "post_content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius rerum laborum beatae sunt ipsa. Dolorum in tempore ullam iure eius, obcaecati nihil vel corporis ipsa?"
     }
 
 ]
-
-
-
-"user1Posts": [
-        {
-            "userId": 2,
-            "postId": 1,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        },
-        {
-            "userId": 2,
-            "postId": 2,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        },
-         {
-            "userId": 2,
-            "postId": 3,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        }
-    ],
-    "user2Posts": [
-        {
-            "userId": 1,
-            "postId": 1,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        },
-        {
-            "userId": 1,
-            "postId": 2,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        },
-         {
-            "userId": 1,
-            "postId": 3,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        }
-    ],
-    "user3Posts": [
-        {
-            "userId": 2,
-            "postId": 1,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        },
-        {
-            "userId": 2,
-            "postId": 2,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        },
-         {
-            "userId": 2,
-            "postId": 3,
-            "postTitle": "Post Title",
-            "postContent": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis voluptate exercitationem dolore? Optio, corporis quaerat. Provident sequi error eligendi soluta sint consequuntur atque deleniti accusantium, id aperiam recusandae magnam possimus adipisci ipsum doloribus placeat inventore itaque! Aspernatur impedit placeat neque totam laborum fugit illum! Ea numquam dolorem sint esse consectetur."
-        }
-    ]
-}
